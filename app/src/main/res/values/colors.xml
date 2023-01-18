@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+    <color name="btn_background_solid_day">#FFFFFF</color>
+    <color name="btn_background_stroke_day">#CCCCCC</color>
+    <color name="btn_background_stroke_day_selected">#4DB6AC</color>
+    <color name="btn_background_text_color_day">#000000</color>
+    <color name="btn_background_solid_day_pressed">#EEEEEE</color>
+    <color name="btn_background_stroke_day_pressed">#AAAAAA</color>
+    <color name="btn_background_text_color_day_pressed">#444444</color>
+    <color name="btn_background_solid_day_disabled">#CCCCCC</color>
+    <color name="btn_background_stroke_day_disabled">#888888</color>
+    <color name="btn_background_text_color_day_disabled">#888888</color>
+
+    <color name="background_color_day">#FFFFFF</color>
+    <color name="input_border_color_day">#7E7B7B</color>
+    <color name="input_background_text_color_day">#000000</color>
+
+    <color name="btn_background_solid_night">#100101</color>
+    <color name="btn_background_stroke_night">#2E0303</color>
+    <color name="btn_background_text_color_night">#915D5D</color>
+    <color name="btn_background_solid_night_pressed">#111111</color>
+    <color name="btn_background_stroke_night_pressed">#444444</color>
+    <color name="btn_background_text_color_night_pressed">#CCCCCC</color>
+    <color name="btn_background_solid_night_disabled">#444444</color>
+    <color name="btn_background_stroke_night_disabled">#222222</color>
+    <color name="btn_background_text_color_night_disabled">#716E6E</color>
+
+    <color name="background_color_night">#090101</color>
+    <color name="input_border_color_night">#7E7B7B</color>
+    <color name="input_background_text_color_night">#D5AFAF</color>
+
+    <color name="btn_background_solid_battery">#121212</color>
+    <color name="btn_background_stroke_battery">#222121</color>
+    <color name="btn_background_text_color_battery">#FFFFFF</color>
+    <color name="btn_background_solid_energy_pressed">#323232</color>
+    <color name="btn_background_stroke_energy_pressed">#202020</color>
+    <color name="btn_background_text_color_energy_pressed">#424040</color>
+    <color name="btn_background_solid_energy_disabled">#FF4444</color>
+    <color name="btn_background_stroke_energy_disabled">#CC4444</color>
+    <color name="btn_background_text_color_energy_disabled">#AAAAAA</color>
+    <color name="background_color_battery">#000000</color>
+
+    <color name="input_border_color_battery">#7E7B7B</color>
+    <color name="input_background_text_color_battery">#FFFFFF</color>
+    <color name="input_text_color_day">#000000</color>
+    <color name="input_text_color_battery">#FFFFFF</color>
+    <color name="input_text_color_night">#BD8783</color>
+
+    <color name="btn_text_color_night">#BD8783</color>
+    <color name="btn_text_color_day">#000000</color>
+    <color name="btn_text_color_battery">#FFFFFF</color>
+
+    <color name="hint_text_color_day">#BDBBBB</color>
+    <color name="hint_text_color_battery">#7E7E7E</color>
+    <color name="hint_text_color_night">#584341</color>
+
+
+
+</resources>

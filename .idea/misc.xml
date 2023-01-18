@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - GR/app/src/main/res/drawable/ic_baseline_check_box_24.xml" value="0.2665" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - GR/app/src/main/res/layout-land/activity_main.xml" value="0.30745179781136006" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - GR/app/src/main/res/layout-land/activity_main_night.xml" value="0.30745179781136006" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - GR/app/src/main/res/layout-land/layout_settings.xml" value="0.3113456464379947" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - GR/app/src/main/res/layout-port/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - GR/app/src/main/res/layout-port/activity_main2.xml" value="0.5" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - GR/app/src/main/res/layout-port/activity_main_night.xml" value="0.6057494866529775" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - GR/app/src/main/res/layout-port/layout_settings.xml" value="0.8638360175695461" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - GR/app/src/main/res/layout/activity_main.xml" value="0.21" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - GR/app/src/main/res/layout/view_menu.xml" value="0.5508870214752568" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - JP/app/src/main/res/drawable/ic_baseline_wb_red_24.xml" value="0.2385" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - JP/app/src/main/res/drawable/ic_baseline_wb_sunny_24.xml" value="0.2385" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - JP/app/src/main/res/drawable/ic_baseline_wb_white_24.xml" value="0.2385" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - JP/app/src/main/res/font/abhaya_libre_extrabold.xml" value="0.2869791666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - JP/app/src/main/res/font/roboto_black.xml" value="0.2869791666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - JP/app/src/main/res/layout-land/activity_main.xml" value="0.30364583333333334" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - JP/app/src/main/res/layout-land/activity_main_night.xml" value="0.30427974947807934" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - JP/app/src/main/res/layout-land/layout_settings.xml" value="0.2208994708994709" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - JP/app/src/main/res/layout-land/layout_settings2.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - JP/app/src/main/res/layout-port/activity_main.xml" value="0.3869701726844584" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - JP/app/src/main/res/layout-port/activity_main_night.xml" value="0.25677083333333334" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - JP/app/src/main/res/layout-port/layout_settings.xml" value="0.25" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - JP/app/src/main/res/layout-port/layout_settings2.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - JP/app/src/main/res/layout-port/list_item.xml" value="0.25677083333333334" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - JP/app/src/main/res/layout/layout_settings.xml" value="0.25" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - JP/app/src/main/res/mipmap-anydpi-v26/ic_kotobas.xml" value="0.262" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - Working Version/app/src/main/res/drawable/curved_window.xml" value="0.1715" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - Working Version/app/src/main/res/layout-land/activity_lesson_list_view.xml" value="0.16154247003647734" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - Working Version/app/src/main/res/layout-land/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - Working Version/app/src/main/res/layout-land/layout_settings.xml" value="0.26860158311345644" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - Working Version/app/src/main/res/layout-land/layout_settings_night.xml" value="0.3072916666666667" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - Working Version/app/src/main/res/layout-land/list_item.xml" value="0.2652423137050547" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - Working Version/app/src/main/res/layout-port/activity_lesson_list_view.xml" value="0.22" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - Working Version/app/src/main/res/layout-port/activity_main.xml" value="0.5" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - Working Version/app/src/main/res/layout-port/activity_main_night.xml" value="0.29910979228486645" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - Working Version/app/src/main/res/layout-port/layout_settings.xml" value="0.49206349206349204" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - Working Version/app/src/main/res/layout-port/layout_settings_night.xml" value="0.5054617676266137" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - Working Version/app/src/main/res/layout-port/list_item.xml" value="0.5468025949953661" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - Working Version/app/src/main/res/layout/activity_lesson_list_view.xml" value="0.18" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - Working Version/app/src/main/res/layout/layout_settings_night.xml" value="0.25" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - Working Version/app/src/main/res/layout/list_item.xml" value="0.1824074074074074" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - Working Version/app/src/main/res/layout/list_view_item_with_button.xml" value="0.38703339882121807" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - Working Version/app/src/main/res/layout/list_view_menu.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - Working Version/app/src/main/res/layout/list_view_menu_chooser.xml" value="0.25" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - Working Version/app/src/main/res/layout/list_view_menu_item.xml" value="0.4717330861909175" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - Working Version/app/src/main/res/layout/menu_listview_item.xml" value="0.67" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - Working Version/app/src/main/res/layout/open_menu_dialog.xml" value="0.4717330861909175" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - Working Version/app/src/main/res/layout/view_about.xml" value="0.22" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - Working Version/app/src/main/res/layout/view_manual.xml" value="0.22" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - Working Version/app/src/main/res/layout/view_menu.xml" value="0.25" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio - Working Version/app/src/main/res/layout/view_options.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1085" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio/app/src/main/res/layout-land/activity_lection_list_view.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio/app/src/main/res/layout-land/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio/app/src/main/res/layout-land/activity_main_night.xml" value="0.25" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio/app/src/main/res/layout-land/activity_main_night_original.xml" value="0.2613009922822492" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio/app/src/main/res/layout-land/layout_settings.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio/app/src/main/res/layout-land/list_item.xml" value="0.22" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio/app/src/main/res/layout-port/activity_lection_list_view.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio/app/src/main/res/layout-port/activity_main.xml" value="0.2578125" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio/app/src/main/res/layout-port/activity_main_night.xml" value="0.25" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio/app/src/main/res/layout-port/activity_main_night_original.xml" value="0.486652977412731" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio/app/src/main/res/layout-port/layout_settings.xml" value="0.25" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio/app/src/main/res/layout-port/list_item.xml" value="0.1" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio/app/src/main/res/layout/activity_lection_list_view.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio/app/src/main/res/layout/activity_main.xml" value="0.2625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio/app/src/main/res/layout/activity_main_night.xml" value="0.2625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio/app/src/main/res/layout/layout_settings.xml" value="0.33" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio/app/src/main/res/layout/list_item.xml" value="0.2310405643738977" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio/app/src/main/res/layout/list_view_item_with_button.xml" value="0.25" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.126" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/MyApplicationGio/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.126" />
+        <entry key="app/src/main/res/layout-land/activity_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout-land/activity_main_night.xml" value="0.5" />
+        <entry key="app/src/main/res/layout-port/activity_main.xml" value="0.10989583333333333" />
+        <entry key="app/src/main/res/layout-port/activity_main_night.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_lection_chooser.xml" value="0.25416666666666665" />
+        <entry key="app/src/main/res/layout/activity_lection_cooser.xml" value="0.23958333333333334" />
+        <entry key="app/src/main/res/layout/activity_lection_list_view.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.10989583333333333" />
+        <entry key="app/src/main/res/layout/activity_main_night.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/layout_settings.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/lection_item.xml" value="0.25416666666666665" />
+        <entry key="app/src/main/res/layout/list_item.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

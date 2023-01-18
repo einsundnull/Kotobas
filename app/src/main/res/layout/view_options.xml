@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/optionsLayout"
+    android:layout_width="360dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="2dp"
+    android:padding="2dp">
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/titelOptions"-->
+    <!--        android:layout_width="178dp"-->
+    <!--        android:layout_height="42dp"-->
+    <!--        android:layout_marginTop="2dp"-->
+    <!--        android:fontFamily="@font/roboto_black"-->
+    <!--        android:gravity="center_vertical"-->
+    <!--        android:paddingLeft="0dp"-->
+    <!--        android:paddingRight="0dp"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/menuTitle" />-->
+
+    <TextView
+        android:id="@+id/questionTextField"
+        android:layout_width="0dp"
+        android:layout_height="38dp"
+        android:fontFamily="@font/roboto_black"
+        android:gravity="center_horizontal"
+        android:paddingLeft="2dp"
+        android:paddingTop="8dp"
+        android:paddingRight="2dp"
+        app:autoSizeMaxTextSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:layout_marginEnd="2dp"
+        android:orientation="horizontal"
+        android:padding="2dp"
+        android:paddingRight="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/questionTextField">
+
+        <TextView
+            android:id="@+id/btnCancel"
+            android:layout_width="175dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="2dp"
+            android:fontFamily="@font/roboto_black"
+            android:gravity="center"
+            app:autoSizeMaxTextSize="20sp" />
+
+        <TextView
+            android:id="@+id/btnOkay"
+            android:layout_width="175dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="8dp"
+            android:fontFamily="@font/roboto_black"
+            android:gravity="center"
+            android:padding="2dp"
+            app:autoSizeMaxTextSize="20sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

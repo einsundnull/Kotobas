@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_lesson_listview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#706D6D"
+
+    tools:context="com.notorein.BasicAppII.ActivityLessons">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/listviewActivityLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/btn_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/btn_close_dialog_background_day" />
+
+        <ListView
+
+            android:id="@+id/list_view"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="32dp"
+            android:paddingTop="3dp"
+            android:background="#CAC7C7"
+            android:choiceMode="singleChoice"
+            android:divider="@android:color/darker_gray"
+            android:gravity="center"
+            android:listSelector="@android:color/transparent"
+            app:layout_constraintBottom_toTopOf="@+id/btn_update_from_excel"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_close" />
+
+
+        <ImageView
+            android:id="@+id/btn_add_lesson"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginEnd="17dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btn_update_from_excel"
+            app:srcCompat="@drawable/btn_add_card_background_day" />
+
+        <ImageView
+            android:id="@+id/btn_copy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btn_delete"
+            app:srcCompat="@drawable/btn_copy_card_background_day" />
+
+        <ImageView
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toEndOf="@+id/btn_copy"
+            app:layout_constraintTop_toTopOf="@+id/btn_close"
+            app:srcCompat="@drawable/btn_delete_card_background_day" />
+
+        <TextView
+            android:id="@+id/btn_update_from_excel"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="152dp"
+            android:gravity="center"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="Button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--                android:inputType="number"-->

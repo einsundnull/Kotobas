@@ -1,0 +1,17 @@
+<resources>
+    <string name="switch_direction_never">Switch Direction Never</string>
+    <string name="show_question_with_answer">Show Question With Answer</string>
+    <string name="mix_lesson">Mix Lesson</string>
+    <string name="night_mode">Night Mode</string>
+    <string name="switch_direction_only_at_the_end">Switch Direction Only At The End</string>
+    <string name="reset_lesson">Reset Lesson</string>
+    <string name="switch_direction_occasionally">Switch Direction Occasionally</string>
+    <string name="switch_direction_on_random">Switch Direction On Random</string>
+    <string name="continue_lesson">BACK</string>
+    <string name="download">Download</string>
+    <string name="choose_lesson">Choose Lesson</string>
+    <string name="reverse_cards">Reverse Cards</string>
+    <string name="battery_save_mode">Battery Save Mode</string>
+    <string name="play_sound_when_answer_is_shown">Play Sound When Answer Is Shown</string>
+    <string name="play_sound_when_question_is_shown">Play Sound When Question Is Shown</string>
+</resources>

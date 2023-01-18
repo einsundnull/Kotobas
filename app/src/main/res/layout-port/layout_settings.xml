@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/settings_layout_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+
+    <Button
+        android:id="@+id/btnChooseLesson"
+        android:layout_width="180dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="5dp"
+        android:text="Choose Lesson"
+        android:textColor="#b3b2b1"
+        app:backgroundTint="@color/cardview_dark_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMix" />
+
+    <CheckBox
+        android:id="@+id/ckBxShowAnswerWithQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/show_question_with_answer"
+        android:textColor="#37383b"
+        android:textColorHighlight="@color/cardview_dark_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ckBxSoundAnswer"
+        app:useMaterialThemeColors="false" />
+
+
+    <CheckBox
+        android:id="@+id/ckBxNightMode"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/night_mode"
+        android:textColor="#37383b"
+        android:textColorHighlight="@color/cardview_dark_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:useMaterialThemeColors="false" />
+
+    <CheckBox
+        android:id="@+id/ckBxBatteryMode"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/battery_save_mode"
+        android:textColor="#37383b"
+        android:textColorHighlight="@color/cardview_dark_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ckBxNightMode"
+        app:useMaterialThemeColors="false" />
+
+    <CheckBox
+        android:id="@+id/ckBxSoundQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/play_sound_when_question_is_shown"
+        android:textColor="#37383b"
+        android:textColorHighlight="@color/cardview_dark_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ckBxBatteryMode"
+        app:useMaterialThemeColors="false" />
+
+    <CheckBox
+        android:id="@+id/ckBxSoundAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/play_sound_when_answer_is_shown"
+        android:textColor="#37383b"
+        android:textColorHighlight="@color/cardview_dark_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ckBxSoundQuestion"
+        app:useMaterialThemeColors="false" />
+
+    <CheckBox
+        android:id="@+id/switchRandom"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:text="Reverse Card Randomly"
+        android:textColor="#37383b"
+        android:textColorHighlight="@color/cardview_dark_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ckBxReverseQuestion"
+        app:useMaterialThemeColors="false" />
+
+    <CheckBox
+        android:id="@+id/switchLearned"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:text="Reverse Learned Cards"
+        android:textColor="#37383b"
+        android:textColorHighlight="@color/cardview_dark_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switchRandom"
+        app:useMaterialThemeColors="false" />
+
+    <CheckBox
+        android:id="@+id/switchCount"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:text="Reverse Every 25th Card"
+        android:textColor="#37383b"
+        android:textColorHighlight="@color/cardview_dark_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switchLearned"
+        app:useMaterialThemeColors="false" />
+
+    <CheckBox
+        android:id="@+id/ckBxReverseQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:checked="true"
+        android:text="@string/reverse_cards"
+        android:textColor="#37383b"
+        android:textColorHighlight="@color/cardview_dark_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ckBxShowAnswerWithQuestion"
+        app:useMaterialThemeColors="false" />
+
+    <Button
+        android:id="@+id/btnMix"
+        android:layout_width="180dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="5dp"
+        android:text="@string/mix_lesson"
+        android:textColor="#F6F6F6"
+        app:backgroundTint="@color/cardview_dark_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnReset" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="180dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="344dp"
+        android:layout_marginEnd="4dp"
+        android:text="@string/reset_lesson"
+        android:textColor="#F6F6F6"
+        app:backgroundTint="@color/cardview_dark_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnContLesson"
+        android:layout_width="180dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="224dp"
+        android:layout_marginBottom="12dp"
+        android:text="@string/continue_lesson"
+        android:textColor="#F6F6F6"
+        android:visibility="visible"
+        app:backgroundTint="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewLessonName"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:background="#E3ECFA"
+        android:fontFamily="@font/roboto_black"
+        android:gravity="center"
+        android:textColor="#202020"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toTopOf="@+id/ckBxNightMode"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dialog_store_new_lesson_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/btn_add"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btn_close"
+        app:srcCompat="@drawable/btn_save_card_background_day" />
+
+    <ImageView
+        android:id="@+id/btn_copy_lesson_dialog"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="18dp"
+        app:layout_constraintStart_toEndOf="@+id/btn_add"
+        app:layout_constraintTop_toTopOf="@+id/btn_close"
+        app:srcCompat="@drawable/btn_copy_card_background_day" />
+
+    <ImageView
+        android:id="@+id/btn_delete_lesson_dialog"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="18dp"
+        app:layout_constraintStart_toEndOf="@+id/btn_copy_lesson_dialog"
+        app:layout_constraintTop_toTopOf="@+id/btn_close"
+        app:srcCompat="@drawable/btn_delete_card_background_day" />
+
+    <ImageView
+        android:id="@+id/btn_close"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_new_lesson"
+        app:srcCompat="@drawable/btn_close_dialog_background_day" />
+
+    <TextView
+        android:id="@+id/title_new_lesson"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Set a name for the new lesson"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/dialog_store_new_lesson_layout"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/custom_edit_text_input"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/input_border_label"
+        android:gravity="center"
+        android:tag="New Lesson Name"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_add" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

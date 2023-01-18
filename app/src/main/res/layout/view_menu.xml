@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/menuLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/menuTitle"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="2dp"
+        android:fontFamily="@font/roboto_black"
+        android:gravity="center_horizontal"
+        android:paddingStart="0dp"
+        android:paddingLeft="17dp"
+        android:paddingTop="8dp"
+        app:autoSizeMaxTextSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/btn_show_lessons"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="2dp"
+        android:fontFamily="@font/roboto_black"
+        android:gravity="center_vertical"
+        android:padding="2dp"
+        android:paddingStart="17dp"
+        android:paddingLeft="17dp"
+        android:paddingTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menuTitle" />
+
+    <TextView
+        android:id="@+id/btn_show_cards"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="2dp"
+        android:fontFamily="@font/roboto_black"
+        android:gravity="center_vertical"
+        android:padding="2dp"
+        android:paddingStart="17dp"
+        android:paddingLeft="17dp"
+        android:paddingTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_show_lessons" />
+
+    <TextView
+        android:id="@+id/btn_settings"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="2dp"
+        android:fontFamily="@font/roboto_black"
+        android:gravity="center_vertical"
+        android:padding="2dp"
+        android:paddingStart="17dp"
+        android:paddingLeft="17dp"
+        android:paddingTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_show_cards" />
+
+    <TextView
+        android:id="@+id/btn_manual"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/roboto_black"
+        android:gravity="center_vertical"
+        android:padding="2dp"
+        android:paddingStart="17dp"
+        android:paddingLeft="17dp"
+        android:paddingTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_settings" />
+
+    <TextView
+        android:id="@+id/btn_about"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/roboto_black"
+        android:gravity="center_vertical"
+        android:padding="2dp"
+        android:paddingStart="17dp"
+        android:paddingLeft="17dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_manual" />
+</androidx.constraintlayout.widget.ConstraintLayout>
