@@ -20,10 +20,10 @@
         android:roundIcon="@mipmap/ic_launcher_jp"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
+
         <activity
             android:name="com.notorein.BasicAppII.ActivityQuickEdit"
-            android:exported="false">
-        </activity>
+            android:exported="false"></activity>
         <activity
             android:name="com.notorein.BasicAppII.ActivityCards"
             android:exported="false" />

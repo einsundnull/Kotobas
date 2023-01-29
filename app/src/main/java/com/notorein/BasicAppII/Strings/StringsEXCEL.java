@@ -39,12 +39,22 @@ public class StringsEXCEL {
 
     public static String[] lessonTemplateEmpty = {QUESTION, ANSWER, QUESTIONHINT, ANSWERHINT, ALLOWREVERSECARD, SHOWHINTQUESTION, REPEATINDEXQUESTION, REPEATINDEXANSWER, REPEATTIMEQUESTION, REPEATTIMEANSWER, TIMESTEPQUESTION, TIMESTEPANSWER, COUNTRIGHTQUESTION, COUNTRIGHTANSWER, COUNTWRONGQUESTION, COUNTWRONGANSWER, SORTINDEX, LESSON_INFO_I, LESSON_INFO_II};
     public static String removeRegex(String text) {
-        text = text.replaceAll("\t", StringsEXCEL.newColumn).replaceAll("\n", StringsEXCEL.newLine);
+        try {
+            text = text.replaceAll("\t", StringsEXCEL.newColumn).replaceAll("\n", StringsEXCEL.newLine);
+        } catch (Exception e){
+
+        }
+
         return text;
     }
 
     public static  String insertRegex(String text) {
-        text = text.replaceAll(StringsEXCEL.newColumn, "\t").replaceAll(StringsEXCEL.newLine, "\n");
+        try {
+            text = text.replaceAll(StringsEXCEL.newColumn, "\t").replaceAll(StringsEXCEL.newLine, "\n");
+        } catch (Exception e){
+
+        }
+
         return text;
     }
 }

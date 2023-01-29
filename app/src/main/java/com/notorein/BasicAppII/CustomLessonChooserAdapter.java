@@ -1,5 +1,6 @@
 package com.notorein.BasicAppII;
 
+import static com.notorein.BasicAppII.Colors.btn_text_color;
 import static com.notorein.BasicAppII.Parameter.Parameter.mode;
 import static com.notorein.BasicAppII.UISettingsItems.createDrawable;
 
@@ -66,14 +67,17 @@ CustomLessonChooserAdapter extends BaseAdapter {
 //        txtView.setBackgroundColor(Colors.background);
 //        txtView.setBackground(UISettingsItems.createDrawable(Color.YELLOW, Color.LTGRAY, 5, 3));
 //        txtView.setTextColor(Colors.textNonSelected);
+        txtView.setBackground(createDrawable(Colors.btn_background_stroke_day_selected, Colors.background, 0, 0));
+        txtView.setTextColor(btn_text_color);
         if (i == Arrays.lessonIndex) {
             txtView = view.findViewById(R.id.listViewLessonsItemTextView);
             if (mode != 0) {
                 txtView.setBackground(createDrawable(Colors.btn_background_stroke_day_selected, Colors.background, 0, 0));
-                txtView.setTextColor(Colors.btn_text_color);
-            } else {
-                txtView.setBackground(createDrawable(Colors.btn_background_stroke_day_selected,  Colors.background, 0, 4));
-                txtView.setTextColor(Colors.btn_text_color);
+                txtView.setTextColor(btn_text_color);
+            }
+            else {
+                txtView.setBackground(createDrawable(Colors.btn_background_stroke_day_selected, Colors.background, 0, 4));
+                txtView.setTextColor(btn_text_color);
             }
         }
         return view;

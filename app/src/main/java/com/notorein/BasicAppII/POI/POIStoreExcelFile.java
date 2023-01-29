@@ -87,7 +87,12 @@ public class POIStoreExcelFile {
                             for (int n = 0; n < list[i].length; n++) {
                                 Cell cell = row.createCell(n);
                                 String value = list[i][n];
-                                value = StringsEXCEL.removeRegex(value);
+                                try {
+                                    value = StringsEXCEL.removeRegex(value);
+                                } catch (Exception e){
+                                    value = "";
+                                }
+
                                 cell.setCellValue(value);
                             }
 
