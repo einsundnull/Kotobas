@@ -33,7 +33,7 @@
 
     <color name="btn_background_solid_battery">#121212</color>
     <color name="btn_background_stroke_battery">#222121</color>
-    <color name="btn_background_text_color_battery">#FFFFFF</color>
+    <color name="btn_background_text_color_battery">#868585</color>
     <color name="btn_background_solid_energy_pressed">#323232</color>
     <color name="btn_background_stroke_energy_pressed">#202020</color>
     <color name="btn_background_text_color_energy_pressed">#424040</color>
@@ -52,7 +52,7 @@
     <color name="btn_text_color_day">#000000</color>
     <color name="btn_text_color_battery">#FFFFFF</color>
 
-    <color name="hint_text_color_day">#BDBBBB</color>
+    <color name="hint_text_color_day">#BCBBBB</color>
     <color name="hint_text_color_battery">#7E7E7E</color>
     <color name="hint_text_color_night">#584341</color>
 
